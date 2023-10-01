@@ -6,6 +6,8 @@ This project focuses on converting a DVD rental database schema into a star sche
 
 The star schema comprises four dimension tables (`dimDate`, `dimCustomer`, `dimFilm`, `dimStore`) and one fact table (`factSales`), each designed to capture different aspects of the DVD rental data:
 
+![starschema](https://github.com/mitesh1691/DVD-Rental-DataSet-Star-Schema/assets/93754832/fdd7c68a-1b4b-47bd-a634-17c679bf4cf2)
+
 ### Dimension Tables
 
 1. **dimDate**: Contains date-related information like date key, date, year, quarter, month, day, week, and whether it's a weekend date.
